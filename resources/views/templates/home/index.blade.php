@@ -1,4 +1,4 @@
-@extends('app/home/home', [
+@extends('app/page/index', [
 	'model' => [
 		//
 	],
