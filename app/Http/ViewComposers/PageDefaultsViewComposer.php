@@ -46,6 +46,27 @@ class PageDefaultsViewComposer extends BaseViewComposer
 			'links' => [
 				'home' => route('templates.show', 'home/index'),
 			],
+			'site_header' => [
+				'home' => route('templates.show', 'home/index'),
+				'nav' => [
+					[
+						'title' => 'Products',
+						'url' => '/',
+					],
+					[
+						'title' => 'Developers',
+						'url' => '/',
+					],
+					[
+						'title' => 'Company',
+						'url' => '/',
+					],
+					[
+						'title' => 'Pricing',
+						'url' => '/',
+					],
+				],
+			],
 		];
 	}
 }

@@ -29,7 +29,7 @@ return [
 	'meta' => [
 		'title' => 'Styleguide',
 		'icon' => '/static/img/meta/favicon-32.png',
-		'accent' => '#ff585d',
+		'accent' => '#635bff',
 	],
 	'sections' => [
 		'foundation' => [
