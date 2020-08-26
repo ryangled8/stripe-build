@@ -7,12 +7,41 @@ button {
 .e-button {
 	@apply
 		relative
-		p-4
-		bg-brand-red
+		p-2
+		bg-brand-dark-blue
+		rounded-full
 		text-white
 		font-body
 		text-base
 		font-normal
 		leading-none
 		no-underline;
+
+		&--purple {
+			@apply
+				bg-brand-purple;
+		}
+			
+		&--blue {
+			@apply
+				bg-brand-light-blue;
+		}
+
+		&--link-dark {
+			@apply
+				bg-transparent
+				text-brand-dark-blue;
+		}
+
+		&--link-blue {
+			@apply
+				bg-transparent
+				text-brand-light-blue;
+		}
+
+		&--link-purple {
+			@apply
+				bg-transparent
+				text-brand-purple;
+		}
 }

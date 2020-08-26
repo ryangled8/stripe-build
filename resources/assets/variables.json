@@ -9,7 +9,11 @@
 	},
 	"colors": {
 		"brand": {
-			"red": "#ff585d"
+			"purple": "#635bff",
+			"light-blue": "#00d4ff",
+			"dark-blue": "#0a2540",
+			"dark-grey": "#425466",
+			"light-grey": "#adbdcc"
 		},
 		"black": "#000",
 		"white": "#fff",
