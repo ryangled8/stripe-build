@@ -6,7 +6,7 @@
 				:key="index"
 			>
 				<a
-					v-html="item.title"
+					v-html="item.information.title"
 				/>
 			</li>
 		</ul>

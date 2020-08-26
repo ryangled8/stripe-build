@@ -4,16 +4,20 @@
 			v-bind="$props.siteHeader"
 		/>
 
-		<pre v-text="$props.siteFooter" />
+		<site-footer
+			v-bind="$props.siteFooter"
+		/>
 	</div>
 </template>
 
 <script>
 	import SiteHeader from './SiteHeader';
+	import SiteFooter from './SiteFooter';
 
 	export default {
 		components: {
 			SiteHeader,
+			SiteFooter,
 		},
 
 		props: {

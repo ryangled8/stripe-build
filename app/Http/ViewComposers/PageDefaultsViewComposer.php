@@ -67,6 +67,186 @@ class PageDefaultsViewComposer extends BaseViewComposer
 					],
 				],
 			],
+			'site_footer' => [
+				'nav' => [
+					[
+						'information' => [
+							[
+								'title' => 'United Kingdom',
+							],
+							[
+								'title' => 'English (United Kingdom)',
+							],
+							[
+								'title' => '&copy;Stripe',
+							],
+						],
+					],
+					[
+						'products' => [
+							[
+								'title' => 'Products',
+							],
+							[
+								'title' => 'Payments',
+								'url' => '/'
+							],
+							[
+								'title' => 'Billing',
+								'url' => '/'
+							],
+							[
+								'title' => 'Connect',
+								'url' => '/'
+							],
+							[
+								'title' => 'Payouts',
+								'url' => '/'
+							],
+							[
+								'title' => 'Atlas',
+								'url' => '/'
+							],
+							[
+								'title' => 'Radar',
+								'url' => '/'
+							],
+							[
+								'title' => 'Issuing',
+								'url' => '/'
+							],
+							[
+								'title' => 'Terminal',
+								'url' => '/'
+							],
+							[
+								'title' => 'Corporate Card',
+								'url' => '/'
+							],
+							[
+								'title' => 'Captial',
+								'url' => '/'
+							],
+							[
+								'title' => 'Sigma',
+								'url' => '/'
+							],
+							[
+								'title' => 'Pricing',
+								'url' => '/'
+							],
+						],
+					],
+					[
+						'developers' => [
+							[
+								'title' => 'Developers',
+							],
+							[
+								'title' => 'Documentation',
+								'url' => '/',
+							],
+							[
+								'title' => 'API Reference',
+								'url' => '/',
+							],
+							[
+								'title' => 'API Status',
+								'url' => '/',
+							],
+						],
+					],
+					[
+						'company' => [
+							[
+								'title' => 'Company',
+							],
+							[
+								'title' => 'About',
+								'url' => '/',
+							],
+							[
+								'title' => 'Customers',
+								'url' => '/',
+							],
+							[
+								'title' => 'Partners',
+								'url' => '/',
+							],
+							[
+								'title' => 'Environment',
+								'url' => '/',
+							],
+							[
+								'title' => 'Jobs',
+								'url' => '/',
+							],
+							[
+								'title' => 'Blog',
+								'url' => '/',
+							],
+							[
+								'title' => 'Newsroom',
+								'url' => '/',
+							],
+						],
+					],
+					[
+						'use-cases' => [
+							[
+								'title' => 'Use Cases',
+							],
+							[
+								'title' => 'SaaS',
+								'url' => '/',
+							],
+							[
+								'title' => 'Platforms',
+								'url' => '/',
+							],
+							[
+								'title' => 'Marketplaces',
+								'url' => '/',
+							],
+							[
+								'title' => 'Enterprise',
+								'url' => '/',
+							],
+						],
+					],
+					[
+						'resources' => [
+							[
+								'title' => 'Resources',
+							],
+							[
+								'title' => 'COVID-19 resources',
+								'url' => '/',
+							],
+							[
+								'title' => 'Support',
+								'url' => '/',
+							],
+							[
+								'title' => 'Contact',
+								'url' => '/',
+							],
+							[
+								'title' => 'Guides',
+								'url' => '/',
+							],
+							[
+								'title' => 'Privacy & terms',
+								'url' => '/',
+							],
+							[
+								'title' => 'Sitemap',
+								'url' => '/',
+							],
+						],
+					],
+				],
+			],
 		];
 	}
 }
