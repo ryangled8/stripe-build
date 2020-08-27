@@ -1,46 +1,21 @@
 <template>
 	<component
 		:is="cElement"
-		:class="[
-			'e-button',
-			`e-button--${$props.type}`,
-			$props.icon
-				? 'pl-6 pr-4'
-				: 'px-6',
-		]"
-		:href="$props.url"
-	>
-		<span
-			v-html="$props.title"
-		/>
-
-		<icon
-			v-if="$props.icon"
-			class="ml-1"
-			:name="$props.icon"
-		/>
-	</component>
+		class="e-button"
+		:href="$props.href"
+		v-html="$props.text"
+	/>
 </template>
 
 <script>
 	export default {
 		props: {
-			title: {
+			text: {
 				type: String,
 				required: true,
 			},
 
-			url: {
-				type: String,
-				default: null,
-			},
-
-			type: {
-				type: String,
-				default: 'dark',
-			},
-
-			icon: {
+			href: {
 				type: String,
 				default: null,
 			},

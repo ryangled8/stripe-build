@@ -29,7 +29,7 @@ return [
 	'meta' => [
 		'title' => 'Styleguide',
 		'icon' => '/static/img/meta/favicon-32.png',
-		'accent' => '#635bff',
+		'accent' => '#ff585d',
 	],
 	'sections' => [
 		'foundation' => [
@@ -133,56 +133,6 @@ return [
 			'heading' => 'Blocks',
 			'copy' => 'More complex components',
 			'blocks' => [
-				'button' => [
-					'heading' => 'Button',
-					'previews' => [
-						[
-							'component' => [
-								'name' => 'EButton',
-								'type' => 'vue',
-							],
-							'autoload' => true,
-							'container' => true,
-							'attributes' => [
-								[
-									'title' => 'Start now',
-									'url' => '/',
-									'icon' => 'chevron-right',
-								],
-								[
-									'title' => 'Button purple',
-									'url' => '/',
-									'icon' => 'chevron-right',
-									'type' => 'purple',
-								],
-								[
-									'title' => 'Button blue',
-									'url' => '/',
-									'icon' => 'chevron-right',
-									'type' => 'blue',
-								],
-								[
-									'title' => 'Button link',
-									'url' => '/',
-									'icon' => 'chevron-right',
-									'type' => 'link-dark',
-								],
-								[
-									'title' => 'Button link',
-									'url' => '/',
-									'icon' => 'chevron-right',
-									'type' => 'link-blue',
-								],
-								[
-									'title' => 'Button link',
-									'url' => '/',
-									'icon' => 'chevron-right',
-									'type' => 'link-purple',
-								],
-							],
-						],
-					],
-				],
 				'breadcrumb' => [
 					'heading' => 'Breadcrumb',
 					'previews' => [
