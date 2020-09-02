@@ -73,7 +73,6 @@ class PageDefaultsViewComposer extends BaseViewComposer
 			'site_footer' => [
 				'title' => 'Footer title',
 				'information' => [
-					'title' => 'Information',
 					'items' => [
 						[
 							'title' => 'United Kingdom',
@@ -81,6 +80,10 @@ class PageDefaultsViewComposer extends BaseViewComposer
 						[
 							'title' => 'English (United Kingdom)',
 						],
+					],
+				],
+				'copyright' => [
+					'items' => [
 						[
 							'title' => '&copy; Stripe',
 						],
@@ -213,10 +216,6 @@ class PageDefaultsViewComposer extends BaseViewComposer
 				'resources' => [
 					'title' => 'Resources',
 					'items' => [
-						[
-							'title' => 'COVID-19 resources',
-							'url' => '/',
-						],
 						[
 							'title' => 'Support',
 							'url' => '/',
