@@ -1,5 +1,6 @@
 a {
-	@apply text-brand-red cursor-pointer underline;
+	font-weight: 100;
+	@apply text-brand-dark-blue cursor-pointer underline;
 
 	&:hover {
 		[data-whatintent=keyboard] & {
