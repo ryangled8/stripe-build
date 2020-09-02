@@ -64,13 +64,14 @@ class PageDefaultsViewComposer extends BaseViewComposer
 						'title' => 'Pricing',
 						'url' => '/',
 					],
-					[
-						'title' => 'Sign in',
-						'url' => '/',
-					],
+				],
+				'nav_cta' => [
+					'title' => 'Sign in',
+					'url' => '/',
 				],
 			],
 			'site_footer' => [
+				'title' => 'Footer title',
 				'information' => [
 					'title' => 'Information',
 					'items' => [
