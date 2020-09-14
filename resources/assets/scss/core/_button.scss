@@ -5,9 +5,9 @@ button {
 }
 
 .e-button {
+	padding: .4rem 1.8rem;
 	@apply
-		relative
-		p-4
+		rounded-full
 		bg-brand-purple
 		text-white
 		font-body

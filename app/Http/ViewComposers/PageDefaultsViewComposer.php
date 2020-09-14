@@ -70,6 +70,119 @@ class PageDefaultsViewComposer extends BaseViewComposer
 					'url' => '/',
 				],
 			],
+			'site_overlay' => [
+				'title' => 'Products',
+				'products_top_left' => [
+					'items' => [
+						[
+							'title' => 'Payments',
+							'url' => '/',
+							'icon' => '',
+						],
+						[
+							'title' => 'Billing',
+							'url' => '/',
+							'icon' => '',
+						],
+						[
+							'title' => 'Payouts',
+							'url' => '/',
+							'icon' => '',
+						],
+						[
+							'title' => 'Radar',
+							'url' => '/',
+							'icon' => '',
+						],
+						[
+							'title' => 'Atlas',
+							'url' => '/',
+							'icon' => '',
+						],
+					],
+				],
+				'products_top_right' => [
+					'items' => [
+						[
+							'title' => 'Terminal',
+							'url' => '/',
+							'icon' => '',
+						],
+						[
+							'title' => 'Connect',
+							'url' => '/',
+							'icon' => '',
+						],
+						[
+							'title' => 'Issuing',
+							'url' => '/',
+							'icon' => '',
+						],
+						[
+							'title' => 'Sigma',
+							'url' => '/',
+							'icon' => '',
+						],
+					],
+				],
+				'products_bottom_left' => [
+					'items' => [
+						[
+							'title' => 'Pricing',
+							'url' => '/',
+							'icon' => '',
+						],
+						[
+							'title' => 'Enterprise',
+							'url' => '/',
+							'icon' => '',
+						],
+						[
+							'title' => 'Partners',
+							'url' => '/',
+							'icon' => '',
+						],
+						[
+							'title' => 'Documentation',
+							'url' => '/',
+							'icon' => '',
+						],
+						[
+							'title' => 'Blog',
+							'url' => '/',
+							'icon' => '',
+						],
+					],
+				],
+				'products_bottom_right' => [
+					'items' => [
+						[
+							'title' => 'About Stripe',
+							'url' => '/',
+							'icon' => '',
+						],
+						[
+							'title' => 'Jobs',
+							'url' => '/',
+							'icon' => '',
+						],
+						[
+							'title' => 'Newsroom',
+							'url' => '/',
+							'icon' => '',
+						],
+						[
+							'title' => 'Support',
+							'url' => '/',
+							'icon' => '',
+						],
+					],
+				],
+				'nav_cta' => [
+					'title' => 'Sign in',
+					'url' => '/',
+				],
+			],
 			'site_footer' => [
 				'title' => 'Footer title',
 				'information' => [
