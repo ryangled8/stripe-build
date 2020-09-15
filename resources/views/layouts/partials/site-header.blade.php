@@ -1,28 +1,35 @@
 <header class="relative z-site-header">
 	<div class="e-container">
-		<div class="flex items-center justify-between mt-4">
-			<a href="{{ $links['home'] }}">
-				<img class="w-20" src="/static/img/branding/logo-dark.png" alt="Stripe Logo">
-			</a>
-	
-			<div class="flex">
-				@foreach ($site_header['nav'] as $item)
-					<li class="list-none mx-4">
-						<a class="font-bold no-underline hover:opacity-50" href="{{ $item['url'] }}">{{ $item['title'] }}</a>
-					</li>
-				@endforeach
-			</div>
-
-			<a class="e-button" href="{{ $site_header['nav_cta']['url'] }}">{{ $site_header['nav_cta']['title'] }}</a>
-
-		</div>
+		<div class="hidden md:block">
+			<div class="flex items-center justify-between my-4">
+				<a href="{{ $links['home'] }}">
+					<img class="w-20" src="/static/img/branding/logo-dark.png" alt="Stripe Logo">
+				</a>
 		
-		<div class="overlay rounded-lg bg-white my-4">
+				<div class="flex">
+					@foreach ($site_header['nav'] as $item)
+						<li class="list-none mx-4">
+							<a class="font-bold no-underline hover:opacity-50" href="{{ $item['url'] }}">{{ $item['title'] }}</a>
+						</li>
+					@endforeach
+				</div>
+	
+				<a class="e-button" href="{{ $site_header['nav_cta']['url'] }}">
+					{{ $site_header['nav_cta']['title'] }}
+
+					<icon
+						name="chevron-right"
+					/>
+				</a>
+			</div>
+		</div>
+
+		{{-- Mobile nav overlay --}}
+		<div class="rounded-lg bg-white my-4 block md:hidden">
 			<div class="px-8 pt-6 flex items-center justify-between">
 				<p class="uppercase text-sm text-brand-dark-grey">{{ $site_overlay['title'] }}</p>
 
 				<icon
-					:key="`icon-${index}`"
 					class="cursor-pointer"
 					name="close"
 				/>
@@ -67,7 +74,13 @@
 			<div class="p-1">
 				<div class="bg-brand-light-grey rounded-bl-lg rounded-br-lg">
 					<div class="py-4">
-						<a href="{{ $site_overlay['nav_cta']['url'] }}" class="w-32 text-center mx-auto block e-button">{{ $site_overlay['nav_cta']['title'] }}</a>
+						<a href="{{ $site_overlay['nav_cta']['url'] }}" class="w-32 text-center mx-auto block e-button">
+							{{ $site_overlay['nav_cta']['title'] }}
+
+							<icon
+								name="chevron-right"
+							/>
+						</a>
 					</div>
 				</div>
 			</div>
