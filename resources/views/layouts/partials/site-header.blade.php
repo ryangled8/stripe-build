@@ -1,6 +1,6 @@
 <header class="relative z-site-header">
 	<div class="e-container">
-		<div class="hidden md:block">
+		<nav class="hidden md:block">
 			<div class="flex items-center justify-between my-4">
 				<a href="{{ $links['home'] }}">
 					<img class="w-20" src="/static/img/branding/logo-dark.png" alt="Stripe Logo">
@@ -22,10 +22,10 @@
 					/>
 				</a>
 			</div>
-		</div>
+		</nav>
 
 		{{-- Mobile nav overlay --}}
-		<div class="rounded-lg bg-white my-4 block md:hidden">
+		<nav class="rounded-lg bg-white my-4 block md:hidden">
 			<div class="px-8 pt-6 flex items-center justify-between">
 				<p class="uppercase text-sm text-brand-dark-grey">{{ $site_overlay['title'] }}</p>
 
@@ -84,6 +84,6 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</nav>
 	</div>
 </header>
